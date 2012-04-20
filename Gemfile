@@ -53,3 +53,13 @@ gem 'heroku'
 
 # Fog allows you to use S3 assets (added for Heroku)
 gem 'fog'
+
+# Refinery CMS
+gem 'refinerycms', '~> 2.0.0'
+
+# Specify additional Refinery CMS Extensions here (all optional):
+gem 'refinerycms-i18n', '~> 2.0.0'
+#  gem 'refinerycms-blog', '~> 2.0.0'
+#  gem 'refinerycms-inquiries', '~> 2.0.0'
+#  gem 'refinerycms-search', '~> 2.0.0'
+#  gem 'refinerycms-page-images', '~> 2.0.0'
