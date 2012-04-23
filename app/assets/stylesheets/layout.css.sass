@@ -1,18 +1,23 @@
 body
   position: relative
-  padding-top: 40px
+  padding-top: 50px
   margin: 0
-  background: #F0F0F0
 
 #page
+  min-height: 600px
+  background: #F0F0F0
+  padding: 10px
+  border: 1px solid #bbb
+  +border-radius(3px)
+  +box-shadow(#555 0 2px 3px 1px)
 
 #body_content
   text-shadow: 0px 1px 1px white
 
 h1#body_content_title
   margin-top: 0px
+  padding-top: 0px
   margin-bottom: 5px
-  padding-top: 10px
   font-size: 1.5em
   color: $sca1
   text-shadow: 1px 1px white
@@ -20,44 +25,7 @@ h1#body_content_title
 footer
   margin-top: 40px
   p
-    clear: both
     font-size: 0.7em
-    float: right
-    text-align: right
-    margin-right: 20px
-
-#container
-  width: 960px
-  margin: auto
-  padding: 0
-
-.column, .columns
-  float: left
-  display: inline
-  margin-left: 10px
-  margin-right: 10px
-
-.container
-  .one-third.column
-    width: 300px
-  .two-thirds.column
-    width: 620px
-
-.column h4
-  text-align: center
-
-#facebook, #twitter
-  width: 320px
-  text-align: center
-
-#facebook
-  float: left
-
-#twitter
-  float: right
-
-#social h4
-  margin: 0
 
 dl
   clear: both
